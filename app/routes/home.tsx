@@ -295,8 +295,8 @@ export default function Home() {
                 totalElapsedTime += delta;
 
                 // 1. Smoothly spin the entire world on its center axis
-                state.worldRotationY += 0.05 * delta;
-                mountainWorld.rotation.y = state.worldRotationY;
+                // state.worldRotationY += 0.05 * delta;
+                // mountainWorld.rotation.y = state.worldRotationY;
 
                 // 2. Animate Hobbit position to follow active state indices
                 /* const currentTarget = MILESTONES[currentIndex].targetPos;
