@@ -42,7 +42,7 @@ export default function Home() {
         {
             id: "origin",
             title: "The Origin Biome",
-            subTitle: "College Student",
+            subTitle: "College Student at Calcutta Institute Of Technology",
             targetPos: {
                 x: 0,
                 z: 4.5 
