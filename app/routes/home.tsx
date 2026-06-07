@@ -42,33 +42,32 @@ export default function Home() {
         {
             id: "origin",
             title: "The Origin Biome",
-            subTitle: "Equity Analyst & Full-Stack Developer",
+            subTitle: "College Student",
             targetPos: {
                 x: 0,
                 z: 4.5 
             }, // Campfire starting base
             details: [
-                "Bridging quantitative market analysis with high-performance engineering.",
-                "Generating clean code & Alpha simultaneously."
+                "8 CGPA in college"
             ]
         },
         {
             id: "college",
             title: "The Academy Grove",
-            subTitle: "Academic Foundations & Radical Builds",
+            subTitle: "Front end developer internship at Codemarks",
             targetPos: {
                 x: -4.5,
                 z: -1 
             }, // The Sakura Tree
             details: [
-                "Developed Git Gandalf: Local LLM pre-commit hooks to assess risk.",
-                "Built GeoMusic Guesser: 3D coordinates meets audio identification."
+                "Did a 8 month internship in a company called Codemarks",
+                "Built many of their products of their clients"
             ]
         },
         {
             id: "job",
             title: "The Trading Peaks",
-            subTitle: "Professional Experience",
+            subTitle: "Research analyst at Junomoneta",
             targetPos: {
                 x: 4.5,
                 z: 1 
@@ -428,8 +427,8 @@ export default function Home() {
             {/* Modern glassmorphic narrative overlays */}
             <div className={`${styles.uiWrapper} ${isIntroComplete ? styles.visible : styles.hidden}`}>
                 <header className={styles.headerCard}>
-                    <h1 className={styles.headerTitle}>Interactive Developer Journey</h1>
-                    <p className={styles.headerSubtitle}>Procedural 3D Anime Environment</p>
+                    <h1 className={styles.headerTitle}>Arka Pratim Chaudhuri</h1>
+                    <p className={styles.headerSubtitle}>Procedural 3D Environment</p>
                 </header>
 
                 <div className={styles.dataPanel}>
